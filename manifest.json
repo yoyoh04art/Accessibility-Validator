@@ -1,0 +1,16 @@
+{
+  "name": "AccessCheck",
+  "short_name": "AccessCheck",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#0078D7",
+  "background_color": "#ffffff",
+  "id": "/",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
