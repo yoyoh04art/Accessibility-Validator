@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: Arial, sans-serif;
   margin: 2rem;
@@ -52,4 +53,55 @@ button:hover {
   padding: 1rem;
   margin-top: 1rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+=======
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+textarea {
+  width: 100%;
+  font-family: monospace;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.result {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.result.success {
+  background-color: #e6f9e6;
+  color: #2e7d32;
+  border-left: 5px solid #2e7d32;
+}
+
+.result.warning {
+  background-color: #fff8e1;
+  color: #f9a825;
+  border-left: 5px solid #f9a825;
+}
+
+.result.error {
+  background-color: #ffebee;
+  color: #c62828;
+  border-left: 5px solid #c62828;
+>>>>>>> 1498504e05afcd6584eb29aabde522d1c09eb305
 }

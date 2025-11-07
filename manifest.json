@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "AccessCheck",
   "short_name": "AccessCheck",
@@ -14,3 +15,21 @@
     }
   ]
 }
+=======
+{
+  "name": "AccessCheck",
+  "short_name": "AccessCheck",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0078d4",
+  "icons": [
+    {
+      "src": "validatorICON.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+
+}
+>>>>>>> 1498504e05afcd6584eb29aabde522d1c09eb305
