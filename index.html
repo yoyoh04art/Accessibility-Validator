@@ -11,14 +11,11 @@
 <body>
   <header>
     <img src="icon-512.png" alt="AccessCheck Logo" width="64" height="64" />
-    <div>
-      <h1>AccessCheck</h1>
-      <p>Build Inclusive Web Experiences</p>
-    </div>
+    <h1>AccessCheck</h1>
+    <p>Build Inclusive Web Experiences</p>
   </header>
 
   <main>
-    <p id="offlineStatus">Checking connection...</p>
     <label for="htmlInput"><strong>Please paste your code below:</strong></label>
     <textarea id="htmlInput" placeholder="Enter your HTML code here..."></textarea>
     <button id="scanBtn">Scan for Accessibility</button>
@@ -32,11 +29,6 @@
         .then(() => console.log('Service Worker registered'))
         .catch(err => console.error('Service Worker registration failed:', err));
     }
-
-    const offlineStatus = document.getElementById('offlineStatus');
-    offlineStatus.textContent = navigator.onLine ? "Online Mode" : "Offline Mode";
-    window.addEventListener('online', () => offlineStatus.textContent = "Online Mode");
-    window.addEventListener('offline', () => offlineStatus.textContent = "Offline Mode");
   </script>
 </body>
 </html>
